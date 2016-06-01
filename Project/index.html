@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="mystyles.css" />
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+</head>
+<body>
+  <header>
+    <h1 class="welcomeHeader">Welcome to Techechelons</h1>
+    <div class="welcomeOptions">
+      <div class="numberOfRows">
+        <label for="numberOfitems">Number of Records: </label>
+        <select id="numberOfitems" onchange="init()">
+          <option value="4">4</option>
+          <option value="5" selected>5</option>
+        </select>
+      </div>
+      <div class="filter">
+        <label for="filterList">Filter: </label>
+        <select id="filterList" onchange="filterTable()">
+          <option value="">All</option>
+        </select>
+      </div>
+    </div>
+  </header>
+  <section>
+    <table id="paymentDetails" class="table">
+      <tr>
+        <th >paymentStatus</th>
+        <th onclick="sort_table('amount')" class="sortable">amount</th>
+        <th>customerEmail</th>
+        <th>merchatId</th>
+        <th>orderDate</th>
+        <th onclick="sort_table('paymentId')" class="sortable">paymentId</th>
+      </tr>
+    </table>
+  </section>
+  <br>
+  <footer>
+    <div id="pageNavPosition">
+
+    </div>
+    <hr />
+    <a href="aboutus.html">ABOUT US</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
