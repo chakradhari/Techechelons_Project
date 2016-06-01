@@ -12,4 +12,4 @@ I have implemented using callbacks and did not use any javascript pattern becaus
 
 I have added an navigation from task 1 to task 2. There is a hyperlink named AboutUs at the bottom of the page. You can resize the window and see the effects of aboutus page.
 
-I have used external library font-awesome for icon.
+I have used external library font-awesome for icons.
