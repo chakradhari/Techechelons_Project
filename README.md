@@ -11,3 +11,5 @@ I have added comments to make my code more understandable.
 I have implemented using callbacks and did not use any javascript pattern because this is the first time I had to code an application completely using Javascript. To be honest I am not much aware of "Javascript Patterns".
 
 I have added an navigation from task 1 to task 2. There is a hyperlink named AboutUs at the bottom of the page. You can resize the window and see the effects of aboutus page.
+
+I have used external library font-awesome for icon.
